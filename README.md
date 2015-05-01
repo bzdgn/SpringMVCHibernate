@@ -25,3 +25,8 @@ git push -u origin master
 5) Update web.xml file as per tutorial
 **************************************
 
+6) Update all sources as per tutorial
+*************************************
+
+7) Check deployment assembly on eclipse if Maven Dependencies are ok ( for Tomcat )
+***********************************************************************************
