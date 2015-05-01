@@ -30,3 +30,17 @@ git push -u origin master
 
 7) Check deployment assembly on eclipse if Maven Dependencies are ok ( for Tomcat )
 ***********************************************************************************
+
+8) Update context-param on web.xml, tutorial using the root-context which is neither needed nor working;
+**********************************&&&*******************************************************************
+Old value;
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/spring/root-context.xml</param-value>
+    </context-param>
+
+New Value;
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
+	</context-param>
