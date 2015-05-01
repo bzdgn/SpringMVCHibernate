@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.journaldev.spring -DartifactId=SpringMVCHibernate -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
